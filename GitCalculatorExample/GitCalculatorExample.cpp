@@ -30,4 +30,5 @@ float divide(float a, float b)
 int main()
 {
     cout << "Hello from the simple c++ calculator!\n";
+    cout << "TO DO Test the methods...\n";
 }
