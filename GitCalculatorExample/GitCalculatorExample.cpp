@@ -27,21 +27,6 @@ float divideMethod(float a, float b)
     return a / b;
 }
 
-float getMax(float a, float b)
-{
-    return a > b ? a : b;
-}
-
-float getMin(float a, float b)
-{
-    return a < b ? a : b;
-}
-
-bool isZero(float a)
-{
-    return a == 0 ? true : false;
-}
-
 int main()
 {
     cout << "Hello from the simple c++ calculator!\n";
@@ -51,5 +36,4 @@ int main()
     minusMethod(1, 2);
     multipleMethod(1, 2);
     divideMethod(1, 2);
-    cout << "TO DO Test the methods...\n";
 }
