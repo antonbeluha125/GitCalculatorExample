@@ -31,4 +31,9 @@ int main()
 {
     cout << "Hello from the simple c++ calculator!\n";
     cout << "First Commit in TestBranch\n";
+
+    plusMethod(1, 2);
+    minusMethod(1, 2);
+    multipleMethod(1, 2);
+    divideMethod(1, 2);
 }
