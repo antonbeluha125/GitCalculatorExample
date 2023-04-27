@@ -37,6 +37,11 @@ bool isZero(float a)
     return a == 0 ? true : false;
 }
 
+int getModule(int x)
+{
+    return x < 0 ? x * -1 : x;
+}
+
 int main()
 {
     cout << "Hello from the simple c++ calculator!\n";
