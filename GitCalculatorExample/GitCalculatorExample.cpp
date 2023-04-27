@@ -17,6 +17,11 @@ float multiple(float a, float b)
     return a * b;
 }
 
+float divide(float a, float b)
+{
+    return a / b;
+}
+
 int main()
 {
     cout << "Hello from the simple c++ calculator!\n";
